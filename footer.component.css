@@ -1,0 +1,148 @@
+.footer{
+    background-color: #fefcf8;
+}
+
+.footer-line{
+    margin-bottom: 35px;
+    margin: 3rem 1rem;
+}
+.footer .logo{
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: inline-block;
+
+}
+.logo img{
+    width: 60%;
+}
+.footer-pr{
+    color: #6b6b84;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 2rem 0rem;
+}
+.icon{
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    gap: 10px;
+
+}
+.icon a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6b6b84;
+    font-size: 18px;
+    position: relative;
+    border-radius: 2px;
+}
+.second-footer{
+    margin: 3rem 4rem;
+}
+.explore{
+    font-weight: 800;
+}
+.footer-link{
+    list-style: none;
+}
+.active{
+    color: orangered;
+    font-size: 20px;
+   
+}
+.footer-link  a{
+    font-size: 20px;
+    
+    color:  #6b6b84;
+}
+.footer-contact{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    width: 230%;
+    text-align: left;
+}
+.footer-contact i{
+    position: absolute;
+    left: 0;
+    color: #ff5d22;
+    top: 4px;
+
+}
+.footer-contact li a{
+    margin-bottom: 13px;
+    color: #6b6b84;
+    position: relative;
+    padding-left: 23px;
+    font-weight: 600;
+}
+.footer-contact li{
+    margin: 1rem;
+}
+.footer-bootom{
+    margin: 3rem 0rem 0rem;
+    border: 1px solid #ebe7e1;
+    /* box-shadow: 1px 6px 5px; */
+    padding: 1rem;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright a{
+    color: orangered;
+    font-size: 14px;
+}
+.copyright i{
+    color: gray;
+   
+    font-size: 19px;
+    font-weight: 600;
+}
+.term{
+   
+    list-style: none;
+    gap: 12px;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0rem 2rem 0rem;
+}
+small{
+    font-size: 105%;
+}
+.term a{
+    color: gray;
+    font-weight: 600;
+}
+@media(max-width:767px){
+    footer small{
+  font-size: 14px;
+    }
+    footer a{
+        font-size: 11px;
+    }
+    footer .logo img{
+        display: flex;
+    justify-content: center;
+    margin: 5rem 4rem 0rem
+    }
+    footer .footer-pr{
+        font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    footer .icon{
+        justify-content: center;
+    }
+    footer .footer-link .active{
+color: orangered;
+    }
+}

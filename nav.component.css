@@ -1,0 +1,156 @@
+@import url(../../pages/home/home.component.css);
+
+
+
+.text-white {
+
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    align-content: baseline;
+    border-radius: 27px;
+    width: 100%;
+
+    box-shadow: 1px 2px 5px rgb(107, 40, 169);
+    ;
+
+}
+
+.list li {
+    color: #221638;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.list a {
+    color: #221638;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.active a {
+    color: orangered;
+}
+
+.list li a:hover {
+    color: orangered;
+}
+
+.left-nav {
+    margin: 1rem;
+}
+
+.con {
+    background-image: url(http://www.htmlcsscolor.com/preview/gallery/CCF7FB.png);
+}
+
+.navbar {
+    height: 61px;
+    height: 50px;
+    background-color: white;
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .left-nav {
+        padding: 1rem 1rem;
+
+    }
+
+    .left-nav img {
+        width: 50%;
+    }
+
+    .list {
+        position: fixed;
+        text-align: center;
+        display: flex;
+
+        left: 0;
+        top: 0;
+        top: 6rem;
+        left: 100%;
+        transition: all 1s;
+        background-color: white;
+        box-shadow: 2px 1px 1px;
+        width: 50%;
+        justify-content: center;
+        height: 10%;
+        border: 1px solid blanchedalmond;
+    }
+
+
+    .list li {
+        padding: none;
+        display: flex;
+
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+}
+
+@media(max-width:767px) {
+    .list {
+        position: fixed;
+        text-align: center;
+        display: flex;
+
+        left: 0;
+        top: 0;
+        top: 6rem;
+        left: 100%;
+        transition: all 1s;
+        background-color: white;
+        box-shadow: 2px 1px 1px;
+        box-shadow: 2px 1px 1px;
+        width: 76%;
+        justify-content: center; 
+        height: 6%;
+        border: 1px solid blanchedalmond; 
+    }
+
+    .list a {
+        font-size: 15px;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+    .left-nav {
+        padding: 1rem 1rem;
+
+    }
+
+    .left-nav img {
+        width: 50%;
+    }
+}
